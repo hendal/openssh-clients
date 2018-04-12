@@ -1,3 +1,3 @@
 FROM fedora:27
 
-RUN dnf install openssh-clients -y && dnf clean all
+RUN dnf install openssh-clients java -y && dnf clean all
